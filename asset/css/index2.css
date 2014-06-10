@@ -1,0 +1,33 @@
+body {
+  width:760px;
+  background-color:gray;
+  margin: 0px;
+}
+
+.container {
+  height:200px;
+  width:100%;
+  background-color:white;
+  text-align: center;
+  padding: 8px;
+}
+
+/*Horizontal center*/
+.H_center{
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+#main {
+  width : 200px;
+  height: 50%;
+  border: 1px solid black;
+  float : left;
+}
+#sidebar {
+  width : 200px;
+  height: 50%;
+  border: 1px solid black;
+  float : right;
+}
