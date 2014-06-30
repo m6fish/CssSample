@@ -1,0 +1,9 @@
+/*RFish 2014*/
+
+清除浮動,範圍超過的時候可以用 overflow: hidden;
+文字粗體 font-weight: normal;
+滑鼠指標 cursor: pointer; 
+
+邊框
+線粗 border: 1px solid #ccc;
+圓角 border-radius: 3px;
