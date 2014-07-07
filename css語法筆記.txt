@@ -5,5 +5,10 @@
 滑鼠指標 cursor: pointer; 
 
 邊框
-線粗 border: 1px solid #ccc;
-圓角 border-radius: 3px;
+    線粗 border: 1px solid #ccc;
+    圓角 border-radius: 3px;
+    陰影 box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    BOX計算包含邊框以內 box-sizing: border-box;
+    
+文字
+    大小 font-size: 15px;
