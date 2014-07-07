@@ -1,12 +1,14 @@
+CssSample
+
 ReadMe.txt
 by RFish 20140610
 
 Files:
   htlml5_template: 空的html5模板
   index1.html:  div水平置中
-  index2.html(http://m6fish.github.io/CssSample/index2.html):  切版練習(3欄式)
-  index3.html(http://m6fish.github.io/CssSample/index3.html):  切版練習(3列式+頭尾滿版+橫向選單)
-  index4.html(http://m6fish.github.io/CssSample/index4.html):  滿版設計(+遮色片)
+  [index2.html](http://m6fish.github.io/CssSample/index2.html):  切版練習(3欄式)
+  [index3.html](http://m6fish.github.io/CssSample/index3.html):  切版練習(3列式+頭尾滿版+橫向選單)
+  [index4.html](http://m6fish.github.io/CssSample/index4.html):  滿版設計(+遮色片)
   
 Doc:
    Css語法筆記: 常用&實用語法整理
