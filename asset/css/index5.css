@@ -1,0 +1,75 @@
+/*RFish 2014*/
+
+/*easy reset*/
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+body {
+	background: #ccc; 
+	font-family: arial, verdana, tahoma;
+}
+
+/*640px + 40*4 =800px
+    800/5 = 160px
+    
+    800+5 (bolder)= 805px
+*/
+
+.accordian{
+    width : 805px;
+    height : 320px;
+    overflow: hidden;
+    
+    margin:100px auto;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+.accordian li{
+    width: 160px;
+    position: relative;
+	display: block;
+    float:left;
+    
+    /*Transitions to give animation effect*/
+    transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+    
+    /*slide shadow*/
+    border-left: 1px solid #888;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+/*Reduce with of all elements, when ul being hovered*/  
+.accordian ul:hover li {width: 40px;}
+
+/*The LI hover style should override the UL hover style*/
+.accordian ul li:hover {width: 640px;}
+
+.accordian li img {
+	display: block;
+}
+
+/*Tittle styles*/
+
+.image_title{
+    background: rgba(0, 0, 0, 0.5);
+    padding:20px;
+    width:640px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0; bottom: 0;	
+}
+
+.image_title a{
+    display: block;
+    color:white;
+    font-size: 16px;
+    text-decoration: none;
+}
