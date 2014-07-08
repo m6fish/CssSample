@@ -7,6 +7,8 @@ Files:
   index2.html(http://m6fish.github.io/CssSample/index2.html):  切版練習(3欄式)
   index3.html(http://m6fish.github.io/CssSample/index3.html):  切版練習(3列式+頭尾滿版+橫向選單)
   index4.html(http://m6fish.github.io/CssSample/index4.html):  滿版設計(+遮色片)
+  index5.html(http://m6fish.github.io/CssSample/index4.html):
+    參考(http://thecodeplayer.com/walkthrough/make-an-accordian-style-slider-in-css3)仿作的範例
   
 Doc:
    Css語法筆記: 常用&實用語法整理
