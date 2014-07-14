@@ -24,3 +24,7 @@ a
     
 li 
    讓圓點消失 display: block; 
+   
+   
+其他
+   不給使用者複製(取消反白) user-select: none; 
