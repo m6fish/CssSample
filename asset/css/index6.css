@@ -1,0 +1,56 @@
+/*RFish 2014*/
+
+/*easy reset*/
+* {
+	margin: 0; 
+	padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+	background-size: cover;
+}
+
+.outer {
+    width :500px;
+    height:40px;
+    margin: 100px auto;
+    padding: 0  20px;
+    background:gray;
+    border-radius: 3px;
+    
+    overflow: hidden;
+}
+
+.box {
+    position: relative;
+    width:460px;
+    top:0px;
+    height: 80px;
+    float:left;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    transition: all 0.5s ease;
+}
+
+.box:active, .box:target {
+    top: -45px;
+}
+
+.box span {
+    border-radius: 3px;
+    width:460px;
+    height: 40px;
+    padding:10px;
+    background:rgba(0, 0, 0, 0.2);
+    margin-top:5px;
+    
+    float:left;
+    text-align: right;
+    color:white;
+}
