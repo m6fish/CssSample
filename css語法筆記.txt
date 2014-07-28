@@ -1,5 +1,12 @@
 /*RFish 2014*/
 
+/*Easy reset*/
+* {
+	margin: 0; 
+	padding: 0;
+    box-sizing: border-box;
+}
+
 瀏覽器客製Css
     chrome: -webkit-
     firefox: -moz-
